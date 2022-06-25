@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &807735478523988699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 807735478523988696}
+  - component: {fileID: 807735478523988697}
+  m_Layer: 0
+  m_Name: FootprintEmitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &807735478523988696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807735478523988699}
+  m_LocalRotation: {x: -0.043247387, y: 0.70482653, z: 0.70686394, w: 0.04114351}
+  m_LocalPosition: {x: -0.24394435, y: -0.43985888, z: -0.61776924}
+  m_LocalScale: {x: 0.010000007, y: 0.010000004, z: 0.010000006}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &807735478523988697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807735478523988699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152295da90f91e3579c9c4c704e8b82d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footprintPrefab: {fileID: 8175910686878468147, guid: 26785c917d0403c1c82981ac494ebcd4, type: 3}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
+  checkRadius: 0.05
+  createFootprintCooldown: 0.4
